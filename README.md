@@ -5,7 +5,7 @@ $npm install
 Para ejecutar se debe de emplear los comandos
 $ npm start
 
-Configuration options
+Configuración
 
 PORT:8080
 
