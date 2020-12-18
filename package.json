@@ -1,0 +1,27 @@
+{
+  "name": "movies-neo4j-javascript-driver",
+  "version": "0.0.1",
+  "description": "Demo application using Neo4j Driver for Javascript",
+  "repository": "",
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "neo4j-driver": "^4.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "cypress": "^6.1.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "webpack",
+    "start": "webpack serve"
+  }
+}
